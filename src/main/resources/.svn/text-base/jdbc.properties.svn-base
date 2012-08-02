@@ -1,0 +1,4 @@
+jdbc.driverClassName=org.postgresql.Driver
+jdbc.url=jdbc:postgresql://localhost/vms
+jdbc.username=mdr
+jdbc.password=mdr123

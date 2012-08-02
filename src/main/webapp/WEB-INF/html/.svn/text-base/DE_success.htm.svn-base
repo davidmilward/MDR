@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:8080/MDR/dataelement -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <script src="./DE_success_files/jquery-1.6.1.js" type="text/javascript"></script>
+  <script src="./DE_success_files/createMenu.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="http://localhost:8080/MDR/styles/mdc.css">
+  <link rel="shortcut icon" type="image/png" href="http://localhost:8080/MDR/favicon.ico">
+  <link rel="icon" type="image/png" href="http://localhost:8080/images/favicon.ico">
+  
+  <title>Congratulations! The MDR is running!</title>
+  <script> $(document).ready(
+                    function(){ 
+					        createMenu($("#content"));
+							}
+					);
+ </script>
+<style class="flashcontrol" style="display: none; " type="text/css">/*FlashControl*/object[type$="x-shockwave-flash"]:not([classid]),object[type$="futuresplash"]:not([classid]),embed[type$="x-shockwave-flash"],embed[type$="futuresplash"]{display:none !important}</style><style type="text/css"></style></head>
+
+
+<body>
+<h1>MDR - Data Element Registry</h1>
+<h2>Data Element successfully added to the MDR</h2>
+ 
+
+
+
+
+
+
+
+
+<form id="dataElement" action="./DE_success_files/DE_success.htm" method="post">
+		  	<fieldset bgcolor="f8f8ff" border="1" cellspacing="0" cellpadding="5">		
+				<legend>Data Element Fields</legend>
+				
+		        <p>
+					<label for="definition">Definition</label><br>
+					<input id="definition" name="definition" type="text" value="TESTINFO3"> 			
+				</p>
+				<p>	
+					<label for="termString">Term</label><br>
+					<input id="termString" name="termString" type="text" value="Balloon"> 
+				</p>
+				<p>
+					<label for="description">Description</label><br>
+					<input id="description" name="description" type="text" value="test"> 
+				</p>
+				<p>	
+					<label for="comments">Comments</label><br>
+					<input id="comments" name="comments" type="text" value="gfdxsfgdsx"> 
+				</p>
+								<p>	
+					<label for="dateFirstActive">Date First Active</label><br>
+					<input id="dateFirstActive" name="dateFirstActive" type="text" value=""> 
+				</p>
+								<p>	
+					<label for="createdBy">Created By</label><br>
+					<input id="createdBy" name="createdBy" type="text" value="15"> 
+				</p>
+								<p>	
+					<label for="lastModifiedOn">Last Modified</label><br>
+					<input id="lastModifiedOn" name="lastModifiedOn" type="text" value=""> 
+				</p>
+								<p>	
+					<label for="registrationStatus">Registration Status</label><br>
+					<input id="registrationStatus" name="registrationStatus" type="text" value="Incomplete"> 
+				</p>
+								<p>	
+					<label for="classification">Classification</label><br>
+					<input id="classification" name="classification" type="text" value=""> 
+				</p>
+				
+			</fieldset>
+		</form>
+
+<!-- 	<ul> -->
+<!-- 		<li> <a href="?locale=en_us">us</a> |  <a href="?locale=en_gb">gb</a> | <a href="?locale=es_es">es</a> | <a href="?locale=de_de">de</a> </li> -->
+<!-- 	</ul>	 -->
+
+  <table class="footer">
+    <tbody><tr>
+      <td align="left"><img src="./DE_success_files/blue_line_s.gif"></td>
+      <td><a href="http://localhost:8080/MDR/welcome">Home</a></td>
+      <td align="right"><img src="./DE_success_files/ox_brand_pos_rect_s.gif"></td>
+      <td>
+      	<ul>
+			<li> <a href="http://localhost:8080/MDR/dataelement?locale=en_us">us</a> |  <a href="http://localhost:8080/MDR/dataelement?locale=en_gb">gb</a> | <a href="http://localhost:8080/MDR/dataelement?locale=es_es">es</a> | <a href="http://localhost:8080/MDR/dataelement?locale=de_de">de</a> </li>
+	    </ul>
+	  </td>
+    </tr>
+  </tbody></table>
+
+  
+
+
+
+
+
+</body></html>

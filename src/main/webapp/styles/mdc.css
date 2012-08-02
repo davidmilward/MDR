@@ -1,0 +1,325 @@
+/*main elements*/
+BODY, DIV, TD
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+BODY
+{
+	background-color: #FFF;
+	background-image: url(../images/banner-graphic.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	text-align: center;
+	min-width: 600px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+DIV
+{
+	margin: 5px 25px;
+	text-align: center;
+}
+/*header and footer elements*/
+#main
+{
+	margin: 0 auto;
+	position: relative;
+	top: 35px;
+	left: 0px;
+	width: 560px;
+	text-align: left;
+}
+.footer
+{
+	background-image: url(#97);
+	border: none;
+	margin-top: 20px;
+	border-top: 1px solid #999999;
+	width: 100%;
+	background-color: #070978;
+	color: #FFFFFF;
+	
+}
+.footer TD
+{
+	color: #999999;
+}
+.footer A:link
+{
+	color: #7DB223;
+}
+/*text styles*/
+H1, H2, H3
+{
+	font-family: Helvetica, sans-serif;
+	color: #120AAA;
+}
+H1
+{
+	font-size: 20px;
+	line-height: 26px;
+}
+H2
+{
+	font-size: 18px;
+	line-height: 24px;
+}
+H3
+{
+	font-size: 15px;
+	line-height: 21px;
+	color: #555;
+}
+H4
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+.errors
+{
+	color: #000000;
+}
+A
+{
+	text-decoration: underline;
+	font-size: 13px;
+}
+A:link
+{
+	color: #3671D4;
+}
+A:hover
+{
+	color: #6220E9;
+}
+A:active
+{
+	color: #3CA6F3;
+}
+A:visited
+{
+	color: #2A2C80;
+}
+UL
+{
+	list-style: disc url(../images/bullet-arrow.png);
+}
+LI
+{
+	padding-top: 5px;
+	text-align: left;
+}
+LI UL
+{
+	list-style: square url(images/sub-bullet.gif);
+}
+LI UL LI UL
+{
+	list-style: circle none;
+}
+/*table elements*/
+/* table */
+/* { */
+/* border-collapse:collapse; */
+/* } */
+/* table, td, th */
+/* { */
+/* border:1px solid green; */
+/* } */
+/* th */
+/* { */
+/* background-color:green; */
+/* color:white; */
+/* } */
+TABLE
+{
+	background: #FFFF33;
+	margin: 3px 0 0;
+	border: 4px solid blue;
+	border-collapse: collapse;
+	align: right
+
+}
+TABLE TABLE
+{
+	margin: -5px 0;
+	border: 1px solid #FFFF33;
+	width: 100%;
+	background-color: #FFFF33;
+	align:center
+	width:80%
+}
+TABLE TD, TABLE TH
+{
+	padding: 8px;
+	background-color:#CCD7EA;
+	color:#333399;
+	align:right 
+}
+TABLE TH
+{
+	font-size: 12px;
+	text-align: right;
+	font-weight: bold;
+}
+TABLE THEAD
+{
+	font-weight: bold;
+	font-style: italic;
+	background-color: #CCD7EA;
+}
+TABLE A:link
+{
+	color: #303030;
+}
+CAPTION
+{
+	caption-side: top;
+	width: auto;
+	text-align: center;
+	font-size: 12px;
+	color: #3399CC;
+	padding-bottom: 4px;
+  background: #0000CC
+}
+FIELDSET
+{
+	background: #E0E7D3;
+	padding: 8px;
+	padding-bottom: 22px;
+	border: none;
+	width: 560px;
+}
+FIELDSET LABEL
+{
+	width: 70px;
+	float: center;
+	margin-top: 1.7em;
+	margin-left: 20px;
+}
+/*fieldset textfield*/
+#INVALID-RULE
+{
+	margin: 3px;
+	height: 20px;
+	background: #E0E7D3;
+}
+FIELDSET TEXTAREA
+{
+	margin: 3px;
+	height: 165px;
+	background: #E0E7D3;
+}
+FIELDSET INPUT
+{
+	margin: 3px;
+	height: 20px;
+	background: #E0E7D3;
+}
+FIELDSET TABLE
+{
+	width: 100%;
+}
+FIELDSET TH
+{
+	padding-left: 25px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+.table-buttons
+{
+	background-color: #FFF;
+	border: none;
+}
+.table-buttons TD
+{
+	border: none;
+}
+.submit INPUT
+{
+	background: url(../images/submit-bg.png) repeat-x;
+	border: 2px outset #D7B9C9;
+	color: #383838;
+	padding: 2px 10px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.updated
+{
+	background: #ECF1E5;
+	font-size: 11px;
+	margin-left: 2px;
+	border: 4px solid #ECF1E5;
+}
+.updated TD
+{
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #888888;
+}
+#jsddm
+{	
+	margin: ;
+	padding: ;
+	margin-left: 110px;
+}
+	
+#jsddm li
+{	
+	float: left;
+	list-style: none;
+	font: 12px Tahoma, Arial
+}
+
+#jsddm li a
+{	
+	display: block;
+	background: #20548E;
+	padding: 5px 12px;
+	text-decoration: none;
+	border-right: 1px solid white;
+	width: 120px;
+	color: #EAFFED;
+	white-space: nowrap
+}
+
+#jsddm li a:hover
+{	
+    background: #1A4473;
+}
+		
+#jsddm li ul
+{	
+    margin: 0;
+	padding: 0;
+	position: absolute;
+	visibility: hidden;
+	border-top: 1px solid white;
+}
+		
+#jsddm li ul li
+{	
+     float: none;
+	 display: inline;
+}
+		
+#jsddm li ul li a
+{	
+      width: auto;
+	  background: #9F1B1B;
+}
+		
+#jsddm li ul li a:hover
+{	
+	background: #7F1616;
+}/**/
+.header {
+	font-size: 16px;
+}

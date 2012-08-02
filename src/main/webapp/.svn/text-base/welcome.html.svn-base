@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <script src="js/jquery-1.6.1.js" type="text/javascript"></script>
+  <script src="js/createMenu.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="styles/mdc.css"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+  <link rel="icon" type="image/png" href="/images/favicon.ico" />
+  <title>Congratulations! The MDR is running!</title>
+  <script> $(document).ready(
+                    function(){ 
+					        createMenu($("#content"));
+							}
+					);
+ </script>
+</head>
+
+  <body>
+    <h1>Oxford Metadata Registry</h1>
+    <div id="content"></div>
+    <p>Hello 
+     <br>
+     <p>Locale = en_GB</p>
+	<hr>	
+	
+	<ul>
+		<li><a href="person">Add Person</a></li>
+	</ul>
+    <table>
+	    <tr><td><a href="createDataElement">Create a new data element</a></td></tr>
+	    <tr><td><a href="dataElementList">View data elements</a></td></tr>
+	    <tr><td><a href="valueDomainAdd">Add a value domain</a></td></tr>
+	    <tr><td><a href="valueDomainList">View the list of value domains</a></td></tr>
+	    <tr><td><a href="artefactAdd">Add a new Artefact to the MDR</a></td></tr>
+	    <tr><td><a href="artefactList">View the list of Artefacts</a></td></tr>
+	    <tr><td><a href="modelAdd.htm">Add a new Model to the MDR</a></td></tr>
+	    <tr><td><a href="modelList.htm">View the list of Models</a></td></tr>
+	    <tr><td><a href="classificationSchemeAdd.htm">Add a Classification Scheme</a></td></tr>
+	    <tr><td><a href="classificationSchemeList.htm">View Classification Schemes</a></td></tr>
+	    <tr><td><a href="classificationSchemeTypeAdd.htm">Add a Classification Scheme Type</a></td></tr>
+	    <tr><td><a href="classificationSchemeTypeList.htm">View Classification Scheme Types</a></td></tr>
+
+ 
+    </table>
+    <table >
+        <tr><td><a href="countryAdd.htm">Add a Country to the list of countries</a></td></tr>
+	    <tr><td><a href="countryList.htm">View the list of countries</a></td></tr>
+	    <tr><td><a href="organisationAdd.htm">Add an organisation</a></td></tr>
+	    <tr><td><a href="organisationList.htm">View the list of organisations</a></td></tr>
+	    <tr><td><a href="personAdd.htm">Add a Person</a></td></tr>
+	    <tr><td><a href="personList.htm">View the list of People</a></td></tr>
+    	<tr><td><a href="relationshipAdd.htm">Add a relationship</a></td></tr>
+	    <tr><td><a href="relationshipList.htm">View the list of Relationships</a></td></tr>
+	    <tr><td><a href="relationshipTypeAdd.htm">Add a relationship type</a></td></tr>
+	    <tr><td><a href="relationshipTypeList.htm">View the list of Relationships Types</a></td></tr>
+	    <tr><td><a href="unitOfMeasureAdd.htm">Add a Units of Measure</a></td></tr>
+	    <tr><td><a href="unitOfMeasureView.htm">View the list of Units of Measure</a></td></tr>
+    </table>
+    <ul>
+		<li> <a href="?locale=en_us">us</a> |  <a href="?locale=en_gb">gb</a> | <a href="?locale=es_es">es</a> | <a href="?locale=de_de">de</a> </li>
+	</ul>
+
+  </body>
+
+
+  <table class="footer">
+    <tr>
+      <td align="left"><img src="/MDR/images/blue_line_s.gif"/></td>
+      <td><a href="/MDR/vocabWelcome.htm">Home</a></td>
+      <td align="right"><!--  >img src="/MDR/images/ox_brand_pos_rect_s.gif"/--></td>
+    </tr>
+  </table>
+
+  </div>
+</body>
+
+</html>

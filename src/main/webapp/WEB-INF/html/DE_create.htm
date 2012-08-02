@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost:8080/MDR/dataelement -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <script src="./DE_create_files/jquery-1.6.1.js" type="text/javascript"></script>
+  <script src="./DE_create_files/createMenu.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="http://localhost:8080/MDR/styles/mdc.css">
+  <link rel="shortcut icon" type="image/png" href="http://localhost:8080/MDR/favicon.ico">
+  <link rel="icon" type="image/png" href="http://localhost:8080/images/favicon.ico">
+  
+  <title>Congratulations! The MDR is running!</title>
+  <script> $(document).ready(
+                    function(){ 
+					        createMenu($("#content"));
+							}
+					);
+ </script><style class="flashcontrol" style="display: none; " type="text/css">/*FlashControl*/object[type$="x-shockwave-flash"]:not([classid]),object[type$="futuresplash"]:not([classid]),embed[type$="x-shockwave-flash"],embed[type$="futuresplash"]{display:none !important}</style><style type="text/css"></style>
+<link type="text/css" rel="stylesheet" href="./DE_create_files/mdc.css"></head>
+
+  <body>
+    <h1>MDR - Data Element Registry</h1>
+    <div id="content"><ul id="jsddm"><li><a href="http://localhost:8080/MDR/dataelement#">search</a><ul style="visibility: hidden; "><li><a href="http://localhost:8080/MDR/dataelement#">data element</a></li><li><a href="http://localhost:8080/MDR/dataelement#">value domain</a></li><li><a href="http://localhost:8080/MDR/dataelement#">vocabulary term</a></li></ul></li><li><a href="http://localhost:8080/MDR/dataelement#">browse</a><ul style="visibility: hidden; "><li><a href="http://localhost:8080/MDR/dataelement/search">data element</a></li><li><a href="http://localhost:8080/MDR/valuedomain/search">value domain</a></li><li><a href="http://localhost:8080/MDR/classificationscheme/search">classification scheme</a></li></ul></li><li><a href="http://localhost:8080/MDR/dataelement#">discover</a><ul><li><a href="http://localhost:8080/MDR/dataelement#">data element</a></li><li><a href="http://localhost:8080/MDR/dataelement#">value domain</a></li></ul></li><li><a href="http://localhost:8080/MDR/dataelement#">background</a><ul><li><a href="http://localhost:8080/MDR/dataelement#">ISO 11179</a></li><li><a href="http://localhost:8080/MDR/dataelement#">Other Relevant Papers</a></li></ul></li><li><a href="http://localhost:8080/MDR/dataelement#">create</a><ul><li><a href="./DE_create_files/DE_create.htm">data element</a></li><li><a href="http://localhost:8080/MDR/createValueDomain">value domain</a></li><li><a href="http://localhost:8080/MDR/addClassificationScheme">classification scheme</a></li><li><a href="http://localhost:8080/MDR/model">model</a></li></ul></li><li><a href="http://localhost:8080/MDR/dataelement#">administer</a><ul><li><a href="http://localhost:8080/MDR/dataelement#">links</a></li><li><a href="http://localhost:8080/MDR/dataelement#">ebXMLRepository</a></li><li><a href="http://localhost:8080/MDR/dataelement#">UML</a></li><li><a href="http://localhost:8080/MDR/dataelement#">federation</a></li><li><a href="http://localhost:8080/MDR/dataelement#">organisation</a></li><li><a href="http://localhost:8080/MDR/person">person</a></li><li><a href="http://localhost:8080/MDR/listpeople">people</a></li></ul></li></ul></div>
+    <br><br>
+	<h1>Create a New Data Element</h1>
+	<form id="createDataElement" action="./DE_create_files/DE_create.htm" method="post">
+	<p>please enter details data element details</p>
+	  <center>
+	  <table width="65%" border="1" cellspacing="0" cellpadding="5">
+	    <tbody><tr>
+	      <td align="center" width="20%">Term:</td>
+	        <td width="20%">
+	          <input id="term" name="term" type="text" value="">
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Description:</td>
+	        <td width="20%">
+	          <input id="description" name="description" type="text" value="">
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Definition:</td>
+	        <td width="20%">
+	          <input id="definition" name="definition" type="text" value="">
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Registration Status:</td>
+	        <td width="20%">
+	        <select id="registrationstatus" name="registrationstatus"><option value="Candidate">Candidate</option><option value="Historical">Historical</option><option value="Incomplete">Incomplete</option><option value="Standard">Standard</option><option value="Superceded">Superceded</option></select>
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">(Registered by)I am:</td>
+	        <td width="20%">
+	          <select id="registeredby" name="registeredby">
+	              <option value="4">Dr David Cameron</option><option value="2">Dr George Faria</option><option value="3">Mr Bill Clinton</option><option value="6">Mr David Milward</option><option value="7">Mr David Milward</option><option value="8">Mr David Milward</option><option value="9">Mr George Clooney</option><option value="10">Mr  Roger Tomlinson</option><option value="11">Mr Steve McClaren</option><option value="12">Mr Adnan Bakkour</option><option value="13">Dr Steve Harris</option><option value="14">Mr Shane Hayes</option><option value="15">Mr Joe Morris</option><option value="16">Mr Joe Morris</option><option value="17">Mr James Murdock</option><option value="18">Mr Rupert Murdock</option><option value="19">Mr Mussa Kussa</option><option value="20">Mr Jonathon Ross</option><option value="21">Miss Rebecca Leighton</option><option value="22">Miss Rebecca Wade</option><option value="23">Miss Margaret Thatcher</option><option value="24">Miss Margaret Bush</option>
+	          </select>
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">(Administered by)Working for:</td>
+	        <td width="20%">
+	        <select id="administeredby" name="administeredby">
+	         		<option value="4">Dr David Cameron</option><option value="2">Dr George Faria</option><option value="3">Mr Bill Clinton</option><option value="6">Mr David Milward</option><option value="7">Mr David Milward</option><option value="8">Mr David Milward</option><option value="9">Mr George Clooney</option><option value="10">Mr  Roger Tomlinson</option><option value="11">Mr Steve McClaren</option><option value="12">Mr Adnan Bakkour</option><option value="13">Dr Steve Harris</option><option value="14">Mr Shane Hayes</option><option value="15">Mr Joe Morris</option><option value="16">Mr Joe Morris</option><option value="17">Mr James Murdock</option><option value="18">Mr Rupert Murdock</option><option value="19">Mr Mussa Kussa</option><option value="20">Mr Jonathon Ross</option><option value="21">Miss Rebecca Leighton</option><option value="22">Miss Rebecca Wade</option><option value="23">Miss Margaret Thatcher</option><option value="24">Miss Margaret Bush</option>
+	          </select>
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Submittedby:</td>
+	        <td width="20%">
+	        <select id="submittedby" name="submittedby">
+	         		<option value="4">Dr David Cameron</option><option value="2">Dr George Faria</option><option value="3">Mr Bill Clinton</option><option value="6">Mr David Milward</option><option value="7">Mr David Milward</option><option value="8">Mr David Milward</option><option value="9">Mr George Clooney</option><option value="10">Mr  Roger Tomlinson</option><option value="11">Mr Steve McClaren</option><option value="12">Mr Adnan Bakkour</option><option value="13">Dr Steve Harris</option><option value="14">Mr Shane Hayes</option><option value="15">Mr Joe Morris</option><option value="16">Mr Joe Morris</option><option value="17">Mr James Murdock</option><option value="18">Mr Rupert Murdock</option><option value="19">Mr Mussa Kussa</option><option value="20">Mr Jonathon Ross</option><option value="21">Miss Rebecca Leighton</option><option value="22">Miss Rebecca Wade</option><option value="23">Miss Margaret Thatcher</option><option value="24">Miss Margaret Bush</option>
+	          </select>
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Classifiedby:</td>
+	        <td width="20%">
+	        <select id="classifiedby" name="classifiedby">
+	         		<option value="4">Dr David Cameron</option><option value="2">Dr George Faria</option><option value="3">Mr Bill Clinton</option><option value="6">Mr David Milward</option><option value="7">Mr David Milward</option><option value="8">Mr David Milward</option><option value="9">Mr George Clooney</option><option value="10">Mr  Roger Tomlinson</option><option value="11">Mr Steve McClaren</option><option value="12">Mr Adnan Bakkour</option><option value="13">Dr Steve Harris</option><option value="14">Mr Shane Hayes</option><option value="15">Mr Joe Morris</option><option value="16">Mr Joe Morris</option><option value="17">Mr James Murdock</option><option value="18">Mr Rupert Murdock</option><option value="19">Mr Mussa Kussa</option><option value="20">Mr Jonathon Ross</option><option value="21">Miss Rebecca Leighton</option><option value="22">Miss Rebecca Wade</option><option value="23">Miss Margaret Thatcher</option><option value="24">Miss Margaret Bush</option>
+	          </select>
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Comments:</td>
+	        <td width="20%">
+	          <input id="comments" name="comments" type="text" value="">
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Classification:</td>
+	        <td width="20%">
+	           <select id="classification" name="classification">
+	                <option value="UML">UML</option>
+	                <option value="SKOS">SKOS</option>
+	                <option value="ClassificationA">ClassificationA</option>
+	                <option value="ClassificationB">ClassificationB</option>
+	           </select> 
+	        </td>
+	    </tr>
+	    <tr>
+	      <td align="center" width="20%">Administrative Status:</td>
+	        <td width="20%">
+	          <select id="administrativestatus" name="administrativestatus">
+	                <option value="1">No Pending Changes</option>
+	                <option value="2">Scheduled For Review</option>
+	                <option value="3">Under Review</option>
+	                <option value="4">Changes Pending</option>
+	           </select>
+	        </td>
+	    </tr>
+
+
+  </tbody></table>
+  </center>
+  <br>
+  <input type="submit" align="center" value="Execute">
+</form>
+    <a href="http://localhost:8080/MDR/welcome">Home</a>	
+	<ul>
+		<li> <a href="http://localhost:8080/MDR/dataelement?locale=en_us">us</a> |  <a href="http://localhost:8080/MDR/dataelement?locale=en_gb">gb</a> | <a href="http://localhost:8080/MDR/dataelement?locale=es_es">es</a> | <a href="http://localhost:8080/MDR/dataelement?locale=de_de">de</a> </li>
+	</ul>	
+
+
+</body></html>

@@ -1,0 +1,16 @@
+title=Dingly Dell Metadata Registry
+heading=Dingly Dell Metadata Registry
+greeting=Welcome to the Dingly Dell Metadata Registry and Repository (OMR) ISO/IEC11179 compliant metadata registry and vocabulary management system.
+changeAdminStatus.heading=Change Admin Status :: DER
+required.abbr2 = Please enter a 2-digit abbreviation!
+createDataElement.heading=Create a New Data Element
+createModel.heading=Create (Link) a new Model
+viewDataElement.heading=Data Element
+addClassificationScheme.heading=Add a new classification scheme
+welcome.title=Congratulations! The MDR is running!
+typeMismatch=could not be parsed
+createValueDomain.heading=Create a New Value Domain
+viewValueDomain.heading=Value Domain
+createPerson.heading=Add New Person
+updateDataElement.heading=You can update this Data Element
+term=Term
